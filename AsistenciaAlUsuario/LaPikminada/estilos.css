@@ -1,0 +1,59 @@
+body {
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #4c7031;
+}
+
+footer {
+    font: 100;
+    font-family: 'Courier New', Courier, monospace;
+    color: gray;
+}
+
+header img {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+h1 {
+    font-size:xx-large;
+}
+
+ul, #menu {
+    list-style-type: none;
+  }
+
+  #menu {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .caret {
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .caret::before {
+    content: "\25B6";
+    color: rgb(7, 41, 10);
+    display: inline-block;
+    margin-right: 6px;
+  }
+  
+  .caret-down::before {
+    transform: rotate(90deg);
+    color: #64ad2c;
+  }
+  
+  .nested {
+    display: none;
+  }
+  
+  .active {
+    display: block;
+  }
+
+  .responsive {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
